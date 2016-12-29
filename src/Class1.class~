@@ -1,0 +1,24 @@
+' Gambas class file
+
+ 
+Create Static
+ 
+Private contenido As String
+ 
+Public Sub _new()
+ 
+  contenido = "Eventos de Usuario\n"
+ 
+End
+ 
+Public Sub setContenido(value As String)
+ 
+  contenido = value
+ 
+End
+ 
+Public Function getContenido() As String
+ 
+  Return contenido
+ 
+End ' Gambas class file

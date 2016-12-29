@@ -1,0 +1,189 @@
+' Gambas class file
+
+Public Sub _new()
+
+End
+
+Public Sub Form_Open()
+
+End
+
+Public Sub Bienvenido_Click()
+
+End
+
+Public Sub MenuButton1_Click()
+
+  
+
+End
+
+Public Sub ListBox1_Click()
+
+  
+
+End
+
+Public Sub ColumnView1_Click()
+
+  
+
+End
+
+
+Public Sub ToggleButton2_Click()
+Message("Se usara network restart ")
+Shell "x-terminal-emulator  -e sudo network restart" 
+
+End
+
+Public Sub Label3_MouseDown()
+
+  
+
+End
+
+Public Sub ToggleButton3_Click()
+
+ Shell "x-terminal-emulator -e sudo /etc/init.d/pulseaudio restart;sudo alsa force-reload;sudo / etc / init.d / alsa - utils restart"
+
+End
+
+
+
+Public Sub ToggleButton4_Click()
+Message("Se Utilizara apt-get update")
+  Shell "x-terminal-emulator -e  sudo apt-get update" 
+     Wait 
+End
+
+Public Sub ToggleButton5_Click()
+
+  Shell "x-terminal-emulator -e  sudo /etc/init.d/dns-clean restart;sudo /etc/init.d/networking force-reload;/etc/init.d/nscd restart;sudo /etc/init.d/dnsmasq restart;sudo rndc flush;sudo rndc restart;sudo rndc exec;service nscd restart;sudo /etc/init.d/nscd restart;sudo /etc/init.d/named restart"
+
+  
+End
+
+Public Sub ToggleButton6_Click()
+
+  Shell "x-terminal-emulator -e sudo apt-get update" 
+
+End
+
+Public Sub ToggleButton7_Click()
+
+  Shell " x-terminal-emulator -e sudo apt-get upgrade"
+
+End
+
+Public Sub ToggleButton1_Click()
+Message("Gracias Por Utilizar ULF")
+  Quit
+
+End
+
+Public Sub ToggleButton8_Click()
+Message("Se usara apt - get autoclean")
+   Shell "x-terminal-emulator -e sudo apt-get autoclean"
+
+End
+
+Public Sub PictureBox1_MouseDown()
+
+  
+
+End
+
+Public Sub ToggleButton9_Click()
+Message("se usara  atp -get Remove") 
+  Shell "x-terminal-emulator -e sudo apt-get autoremove" 
+
+End
+
+Public Sub ToggleButton10_Click()
+Message("Se utilizara sudo apt - get clean")
+   Shell " x-terminal-emulator -e sudo apt-get clean"
+
+
+End
+
+Public Sub TextLabel1_MouseDown()
+Message("Pagina Oficial De gambas")
+Desktop.Open("https://www.gambas-es.org")
+End
+
+Public Sub TextArea1_KeyPress()
+
+  
+
+End
+
+Public Sub ToggleButton11_Click()
+Message("se utilizara sudo sync && sudo sysctl -w vm.drop_caches=3") 
+  Shell "x-terminal-emulator  -e sudo sync && sudo sysctl -w vm.drop_caches=3"
+
+
+
+End
+
+Public Sub ToggleButton12_Click()
+Message("Se utilizara sudo update-grub")
+Shell "x-terminal-emulator -e sudo update-grub"
+
+End
+
+Public Sub ToggleButton13_Click()
+
+Message("Se guardan en /var/log  , puedes seleccionar el texto si te da flojera XD")
+
+End
+
+Public Sub ToggleButton14_Click()
+
+  Message("se guardan la MAYORIA en carpeta personal  /.themes ||ES UNA CARPETA OCULTA||o sino crea una capeta llamada asi ")
+
+End
+
+Public Sub ToggleButton15_Click()
+
+  Message("con Ctrl+H ")
+
+End
+
+Public Sub ButtonBox1_Click()
+
+
+
+End
+
+Public Sub ComboBox1_Click()
+
+  
+
+End
+
+Public Sub ToggleButton16_Click()
+Message("se usara sudo apt-get dist-upgrade")
+
+Shell "x-terminal-emulator -e sudo apt-get dist-upgrade"
+
+End
+
+Public Sub ToggleButton17_Click()
+Message("Soy un aficionado a la informatica ,tecnico,diseñador grafico y productor musical o.O")
+Message("puedes buscarme por youtube  y soundcloud solamente pon  Cristian amoyao ,ademas estoy desarrollando un SO")
+Message("A PARTIR DE AHORA TENDRA LICENCIA GPL Y SERA MANTENIDO POR LA COMUNIDAD")
+End
+
+Public Sub ToggleButton18_Click()
+
+  Message("Lo uso mucho https://portablelinuxgames.org/?allPackages o http://www.playdeb.net/welcome/")
+
+End
+
+Public Sub ToggleButton19_Click()
+Message("parece xfcedesktop no esta configurado para que arranque junto al sistema")
+Message("ademas tiene problemas de cache de los iconos")
+Shell "x-terminal-emulator -e  sudo xfdesktop;rm -R ~/.cache/sessions/*"
+
+End

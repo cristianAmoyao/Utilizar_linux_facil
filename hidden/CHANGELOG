@@ -1,0 +1,39 @@
+* Tue Dec 20 2016 cristian Amoyao <amoyao2014@gmail.com> 0.0.9
+- se areglo un par de bugs
+
+* Tue Dec 20 2016 cristian Amoyao <amoyao2014@gmail.com> 0.0.9
+-Se Puede actualizar los repositorios para saber si existe version nueva de las aplicaciones de todas aplicaciones
+-Se añadio un poco de info de las cosas que quisieras  saber
+
+* Fri Dec 16 2016 cristian Amoyao <amoyao2014@gmail.com> 0.0.8
+- readaptada para todas las versiones de linux
+
+* Thu Dec 15 2016 cristian Amoyao <amoyao2014@gmail.com> 0.0.8
+
+* Thu Dec 15 2016 cristian Amoyao <amoyao2014@gmail.com> 0.0.7
+- Se puede actualizar el Grub
+- Se puede liberar RAM
+
+* Sat Dec 10 2016 cristian Amoyao <amoyao2014@gmail.com> 0.0.7
+- Se bajo la opacacidad del Software
+
+* Sat Dec 10 2016 cristian Amoyao <amoyao2014@gmail.com> 0.0.6.8
+- Limpia archivos innecesarios
+- Limpia paquetes innecesarios
+- Elimina versiones obsoletas de los programas instalados
+- Se muestra los comando que se utilizan
+
+* Sat Dec 03 2016 cristian Amoyao <amoyao2014@gmail.com> 0.0.6.3
+- actualiza todos los programas
+- actualiza info de los repositorios
+
+* Fri Dec 02 2016 cristian Amoyao <amoyao2014@gmail.com> 0.0.6
+
+* Fri Dec 02 2016 cristian Amoyao <amoyao2014@gmail.com> 0.0.6
+- Reinicia el audio y Wifi
+- Vacia cache de dns
+- Actualiza repositorios
+
+* Fri Dec 02 2016 cristian <amoyao2014@gmail.com> 0.0.5
+- Lanzamiento inicial
+
