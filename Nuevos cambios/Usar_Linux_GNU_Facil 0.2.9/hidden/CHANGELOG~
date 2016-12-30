@@ -1,0 +1,20 @@
+* Sat Dec 10 2016 cristian Amoyao <amoyao2014@gmail.com> 0.0.6
+- Limpia archivos innecesarios
+- Limpia paquetes innecesarios
+- Elimina versiones obsoletas de los programas instalados
+- Se muestra los comando que se utilizan
+
+* Sat Dec 03 2016 cristian Amoyao <amoyao2014@gmail.com> 0.0.6
+- actualiza todos los programas
+- actualiza info de los repositorios
+
+* Fri Dec 02 2016 cristian Amoyao <amoyao2014@gmail.com> 0.0.6
+
+* Fri Dec 02 2016 cristian Amoyao <amoyao2014@gmail.com> 0.0.6
+- Reinicia el audio y Wifi
+- Vacia cache de dns
+- Actualiza repositorios
+
+* Fri Dec 02 2016 cristian <amoyao2014@gmail.com> 0.0.5
+- Lanzamiento inicial
+

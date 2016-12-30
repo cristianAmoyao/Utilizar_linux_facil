@@ -1,0 +1,181 @@
+# Gambas Form File 3.0
+
+{ Form Form
+  MoveScaled(0,0,105,89)
+  Background = Color.Background
+  Icon = Picture["icon.png"]
+  Resizable = False
+  Opacity = 95
+  { Label2 Label
+    MoveScaled(11,1,1,1)
+  }
+  { ToggleButton2 ToggleButton
+    MoveScaled(25,11,28,6)
+    Font = Font["Aegean,-1"]
+    Background = Color.Background
+    Text = ("Reiniciar todos los \nservicios de internet")
+  }
+  { Label3 Label
+    MoveScaled(2,3,64,8)
+    Text = ("Bienvenido\n¿Que necesita?\nSe le solicitara una contraseña para iniciar las tareas que elija\n")
+  }
+  { ToggleButton1 ToggleButton
+    MoveScaled(60,84,16,4)
+    Font = Font["Aegean"]
+    Background = Color.Background
+    Text = ("Salir")
+  }
+  { ToggleButton3 ToggleButton
+    MoveScaled(0,11,23,6)
+    Font = Font["Aegean"]
+    Background = Color.Background
+    Text = ("Reiniciar Audio\n(ALSA and Pulse)")
+  }
+  { ToggleButton4 ToggleButton
+    MoveScaled(25,17,28,5)
+    Font = Font["Aegean"]
+    Background = Color.Background
+    Text = ("Actualizar Repositorios")
+  }
+  { ToggleButton5 ToggleButton
+    MoveScaled(0,17,23,6)
+    Font = Font["Aegean"]
+    Background = Color.Background
+    Text = ("Reparar Dns\n(Vaciar cache)")
+  }
+  { ToggleButton6 ToggleButton
+    MoveScaled(0,23,23,6)
+    Font = Font["Aegean"]
+    Background = Color.Background
+    Text = ("Actualizar informacion\nde los Repositorios")
+  }
+  { ToggleButton7 ToggleButton
+    MoveScaled(25,22,28,6)
+    Font = Font["Aegean"]
+    Background = Color.Background
+    Text = ("Actualizar todos \nlos programas instalados.")
+  }
+  { Label1 Label
+    MoveScaled(2,82,38,7)
+    Font = Font["Aegean"]
+    Tracking = True
+    Text = ("Facebook del programa:hsmcea")
+  }
+  { ToggleButton8 ToggleButton
+    MoveScaled(0,29,23,5)
+    Font = Font["Aegean"]
+    Background = Color.Background
+    Text = ("Limpiar archivos\nInnecesarios")
+  }
+  { PictureBox1 PictureBox
+    MoveScaled(66,75,9,8)
+  }
+  { TextLabel1 TextLabel
+    MoveScaled(54,80,29,8)
+    Font = Font["Aegean"]
+    Text = ("By powered   \n\n")
+  }
+  { ToggleButton9 ToggleButton
+    MoveScaled(25,28,28,6)
+    Font = Font["Aegean"]
+    Background = Color.Background
+    Text = ("Borrar Paquetes\nInnecesarios")
+  }
+  { ToggleButton10 ToggleButton
+    MoveScaled(0,34,23,8)
+    Font = Font["Aegean"]
+    Background = Color.Background
+    Text = ("Remover cache de los\n.deb paquetes\n(versiones Anteriores)\nde  programas instalados.")
+  }
+  { ToggleButton11 ToggleButton
+    MoveScaled(25,42,28,6)
+    Font = Font["Aegean"]
+    Text = ("Liberar RAM")
+  }
+  { ToggleButton12 ToggleButton
+    MoveScaled(0,42,23,6)
+    Font = Font["Aegean"]
+    Text = ("Actualizar grub")
+  }
+  { ToggleButton13 ToggleButton
+    MoveScaled(76,22,18,6)
+    Font = Font["Aegean,-2"]
+    Text = ("¿Donde se \nguardan los logs?")
+  }
+  { Label4 Label
+    MoveScaled(78,10,24,4)
+    Text = ("Preguntas")
+  }
+  { ToggleButton14 ToggleButton
+    MoveScaled(76,17,18,5)
+    Font = Font["Aegean,-2"]
+    Text = ("¿como instalar temas?")
+  }
+  { ToggleButton15 ToggleButton
+    MoveScaled(76,28,18,6)
+    Font = Font["Aegean,-1"]
+    Text = ("¿Como mostrar las \nCarpetas ocultas?")
+  }
+  { ToggleButton16 ToggleButton
+    MoveScaled(25,34,28,8)
+    Font = Font["Aegean,-2"]
+    Text = ("obtener informacion\n  Acerca de las nuevas versiones\nDe los paquetes de los repositorios")
+  }
+  { ToggleButton17 ToggleButton
+    MoveScaled(40,84,18,4)
+    Font = Font["Aegean"]
+    Text = ("A cerca de") & "..."
+  }
+  { ToggleButton18 ToggleButton
+    MoveScaled(76,34,18,8)
+    Font = Font["Aegean,-1"]
+    Text = ("¿Juegos portables?")
+  }
+  { ToggleButton19 ToggleButton
+    MoveScaled(0,48,23,7)
+    Font = Font["Aegean,-2"]
+    Text = ("No aparece el fondo\n de pantalla XFCE")
+  }
+  { Label5 Label
+    MoveScaled(95,7,22,35)
+    Font = Font["Aegean"]
+    Text = ("Bajo\n      L\n      i\n      c\n      e\n      n\n      c\n      i\n      a\n\n      G\n      P\n      L")
+  }
+  { txtOutput TextArea
+    MoveScaled(1,60,77,14)
+  }
+  { Label6 Label
+    MoveScaled(1,56,24,4)
+    Text = ("Command Output:")
+  }
+  { Button1 Button
+    MoveScaled(54,11,20,6)
+    Font = Font["Aegean"]
+    Text = ("Instale Linux\nno tengo Wi-Fi")
+  }
+  { Button2 Button
+    MoveScaled(54,17,20,5)
+    Font = Font["Aegean"]
+    Text = ("Editar Menu\ncon Menu libre")
+  }
+  { Button3 Button
+    MoveScaled(25,48,28,7)
+    Font = Font["Aegean,-1"]
+    Text = ("Iniciar nautilus \ncon privilegios\n(Explorador de archivos)")
+  }
+  { Button4 Button
+    MoveScaled(54,22,20,6)
+    Font = Font["Aegean,-1"]
+    Text = ("Iniciar thunar\ncon privilegios\n(Explorador de archivos)")
+  }
+  { Button5 Button
+    MoveScaled(54,28,20,6)
+    Font = Font["Aegean"]
+    Text = ("Instalar \nKDE Plasma")
+  }
+  { Button6 Button
+    MoveScaled(54,34,20,8)
+    Font = Font["Aegean"]
+    Text = ("Desinstalar \nKDE plasma")
+  }
+}

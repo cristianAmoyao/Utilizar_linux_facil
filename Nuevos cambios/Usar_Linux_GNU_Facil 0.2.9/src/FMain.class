@@ -1,0 +1,247 @@
+' Gambas class file
+
+
+Public ICON_PATH As String = Application.Path & "/icon.png"
+
+Public Sub Exec(Command As String, Optional NotificationMsg As String = Null, Optional Title As String = Null)
+  
+  Print ICON_PATH
+  
+  txtOutput.Text = Null
+  
+  If Not NotificationMsg == Null Then
+    Command = Command & " && notify-send '" & Title & "' '" & NotificationMsg & "' -i " & ICON_PATH 
+  Endif
+  '//===>Redirigir el output al evento Output_Read
+  Shell Command For Read As "Output"
+  
+End
+
+
+Public Sub Output_Read()
+  '//===>Leer el Std Output 
+  Dim OutputLine As String
+
+  OutputLine = Read #Last, -256
+
+  txtOutput.Text &= OutputLine
+  
+  
+End
+
+
+
+Public Sub Notify(NotificationMsg As String, Title As String)
+  Shell "notify-send '" & Title & "' '" & NotificationMsg & "' -i " & ICON_PATH
+End
+
+
+Public Sub ToggleButton2_Click()
+Message("Se usara network restart ")
+Exec("pkexec sudo network restart", "Servicios de internet reiniciados", "Listo!")
+End
+
+Public Sub ToggleButton3_Click()
+
+ 'Shell "x-terminal-emulator -e sudo /etc/init.d/pulseaudio restart;sudo alsa force-reload;sudo / etc / init.d / alsa - utils restart"
+ Exec("pkexec sudo /etc/init.d/pulseaudio restart;sudo alsa force-reload;sudo / etc / init.d / alsa - utils restart", "Se a reiniciado ALSA y PULSE Audio", "Listo!")
+
+End
+
+
+Public Sub ToggleButton4_Click()
+
+Exec("pkexec sudo apt-get update", "Repositorio actualizado \n Se Utilizara apt-get update", "Listo!")
+     
+End
+
+Public Sub ToggleButton5_Click()
+
+  'Shell "x-terminal-emulator -e  sudo /etc/init.d/dns-clean restart;sudo /etc/init.d/networking force-reload;/etc/init.d/nscd restart;sudo /etc/init.d/dnsmasq restart;sudo rndc flush;sudo rndc restart;sudo rndc exec;service nscd restart;sudo /etc/init.d/nscd restart;sudo /etc/init.d/named restart"
+   
+  
+  Exec("pkexec sudo /etc/init.d/dns-clean restart;sudo /etc/init.d/networking force-reload;/etc/init.d/nscd restart;sudo /etc/init.d/dnsmasq restart;sudo rndc flush;sudo rndc restart;sudo rndc exec;service nscd restart;sudo /etc/init.d/nscd restart;sudo /etc/init.d/named restart", "Se a reparado la cache de DNS", "Listo")
+  
+End
+
+Public Sub ToggleButton6_Click()
+
+  
+  Exec("pkexec sudo apt-get update", "Se a echo la actualizacion de repositorios", "Listo")
+
+End
+
+Public Sub ToggleButton7_Click()
+ 
+  
+  Exec("pkexec sudo apt-get upgrade", "Programas Actualizados!", "Listo!")
+
+End
+
+Public Sub ToggleButton1_Click()
+Message("Gracias Por Utilizar ULF")
+  Quit
+
+End
+
+Public Sub ToggleButton8_Click()
+Message("Se usara apt - get autoclean")   
+Exec("pkexec sudo apt-get autoclean", "Se a echo la limpieza ", "Listo")
+End
+
+Public Sub PictureBox1_MouseDown()
+
+  
+
+End
+
+Public Sub ToggleButton9_Click()
+
+Dim r As Integer
+Message.Title = "Eliminar paquetes?"
+r = Message.Warning("Desea eliminar los paquete inecesarios ?", "Si", "No")
+  
+  If r == 1 Then
+    Exec("pkexec sudo apt-get autoremove -y", "Paquetes inecesarios eliminados!", "Listo")    
+  Endif
+
+End
+
+Public Sub ToggleButton10_Click()
+Message("Se utilizara sudo apt - get clean")   
+Exec("pkexec sudo apt-get clean", "Se a limpiado la cache", "Listo")
+
+
+End
+
+Public Sub TextLabel1_MouseDown()
+Desktop.Open("https://www.gambas-es.org")
+Message("Pagina Oficial De gambas")
+Me.Close()
+End
+
+Public Sub txtOutput_KeyPress()
+
+  
+
+End
+
+Public Sub ToggleButton11_Click()
+    
+  Exec("pkexec sudo sync && sudo sysctl -w vm.drop_caches=3", "Memoria RAM liberada!", "Listo!")
+    
+End
+
+Public Sub ToggleButton12_Click()
+Message("Se utilizara sudo update-grub")
+Exec("pkexec sudo update-grub", "GRUB se a Actualizasdo", "Listo")
+
+End
+
+Public Sub ToggleButton13_Click()
+Dim r As Integer
+
+Message("Se guardan en /var/log  , puedes seleccionar el texto si te da flojera XD")
+
+Message.Title = "Abrir carpeta?"
+
+r = Message.Warning("Abrir el folder ?", "Si", "No")
+  
+  If r == 1 Then
+    Exec("gnome-open /var/log")    
+  Endif
+
+End
+
+Public Sub ToggleButton14_Click()
+Dim r As Integer
+
+Exec("dir /home/$USER/.themes/") 
+
+Message("se guardan la MAYORIA en carpeta personal  /.themes ||ES UNA CARPETA OCULTA||o sino crea una capeta llamada asi ")
+
+Message.Title = "Desea crear carpeta ?"
+
+r = Message.Warning("Crear folder ?", "Si", "No")
+  
+  If r == 1 Then
+    Exec("mkdir /home/$USER/.themes")
+    
+  Message.Title = "Abrir folder?"
+  r = Message.Warning("Abrir folder de themes ?", "Si", "No")
+  
+  If r == 1 Then
+    Exec("gnome-open /home/$USER/.themes")
+  Endif
+    
+  Endif
+  
+  
+
+End
+
+
+Public Sub ToggleButton16_Click()
+
+Exec("pkexec sudo apt-get dist-upgrade")
+
+End
+
+Public Sub ToggleButton17_Click()
+Message("Soy un aficionado a la informatica ,tecnico,diseñador grafico y productor musical o.O")
+Message("puedes buscarme por youtube  y soundcloud solamente pon  Cristian amoyao ,ademas estoy desarrollando un SO")
+Message("A PARTIR DE AHORA TENDRA LICENCIA GPL Y SERA MANTENIDO POR LA COMUNIDAD")
+End
+
+Public Sub ToggleButton18_Click()
+
+
+Notify("Juegos portables en \n https://portablelinuxgames.org/?allPackages \n http://www.playdeb.net/welcome/", "Hsmcea")
+
+End
+
+Public Sub ToggleButton19_Click()
+Message("parece xfcedesktop no esta configurado para que arranque junto al sistema")
+Message("ademas tiene problemas de cache de los iconos")
+Exec("pkexec sudo xfdesktop;rm -R ~/.cache/sessions/*", "xcfedektop Reiniciado", "Listo!")
+
+End
+
+Public Sub ToggleButton20_Click()
+
+  Exec "pkexec sudo nautilus"
+
+End
+
+Public Sub Button1_Click()
+
+  Exec("pkexec sudo --reinstall install bcmwl-kernel-source", "se ha reinstalado u instalado bcmwl-kernel-source", "Listo") 
+
+End
+
+Public Sub Button2_Click()
+
+  Exec("pkexec menulibre")
+
+End
+
+Public Sub Button3_Click()
+
+  Shell "gksudo sudo nautilus"
+  Wait 5
+  Shell "notify-send --urgency=critical ´tenga cuidado´ "
+  Shell "notify-send ´solo aviso´ "
+End
+
+Public Sub Button4_Click()
+
+  Shell "gksudo sudo thunar"
+Shell "notify-send" 
+End
+
+Public Sub Button5_Click()
+
+  Shell "gksudo sudo add-apt-repository ppa:kubuntu-ci/stable;sudo add-apt-repository -r ppa:kubuntu-ppa/backports;notify-send ´AHORA ACTUALIZARA;sudo apt-get update;sudo apt-get dist-upgrade;sudo apt-get install plasma-desktop;notify-send LISTO"
+""
+
+End

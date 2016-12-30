@@ -1,0 +1,14 @@
+' Gambas class file
+
+ 
+Public Sub form_Show()
+ 
+TextArea1 = Class1.getContenido()
+ 
+End
+ 
+Public Sub ButtonSalir_Click()
+ 
+  Me.Close()
+ 
+End
