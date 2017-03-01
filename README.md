@@ -4,7 +4,7 @@ se ira actualizando
 
 lamentablemente no puedo compilar Pero busque otra manera 
 es algo asi como instalador 
-NOTA : debes tener gambas instalado
+NOTA : debes tener gambas instalado (la version grafica)
 son 3 pasos
 **************************paso 1**********************************
 descomprimilo y dejalo en el escritorio
