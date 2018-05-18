@@ -1,0 +1,28 @@
+Format: 1.8
+Date: Mon, 14 May 2018 12:00:00 +0000
+Source: ulf-qt5
+Binary: ulf-qt5
+Architecture: source all
+Version: 2.3.0-1
+Distribution: unstable
+Urgency: low
+Maintainer: Usar linux Facil <cristian@linux-2017>
+Changed-By: Usar linux Facil <cristian@linux-2017>
+Description:
+ ulf-qt5    - qt5 package for Utilizar Linux/GNU Facil
+Changes:
+ ulf-qt5 (2.3.0-1) unstable; urgency=low
+ .
+   * New release version
+Checksums-Sha1:
+ d9a3b2305f1c526485551cd6d7f1496d8c2081d2 510 ulf-qt5_2.3.0-1.dsc
+ 22456d64255e3392ca7597282f92a9c188164b8f 851 ulf-qt5_2.3.0-1.tar.gz
+ d5910455ed25803e7f7e9011d38e197ebe231878 1280 ulf-qt5_2.3.0-1_all.deb
+Checksums-Sha256:
+ 52b13721bcc8cd7a2c9744bd18aae26e1ac54e679f6eba226c8e437841f07dbb 510 ulf-qt5_2.3.0-1.dsc
+ 6af25e535bcc7a70b61d94cacd79b6cdc305e2672f049853fb54069103733b72 851 ulf-qt5_2.3.0-1.tar.gz
+ 5c881ab78a747a85249d439ecc58ebc379b078054703dad18b71918b21b03b2b 1280 ulf-qt5_2.3.0-1_all.deb
+Files:
+ 7af351a8e2d93f87a18de138c08646bc 510 contrib/admin optional ulf-qt5_2.3.0-1.dsc
+ d9928720bc8a58bd92fd393c73cceb4e 851 contrib/admin optional ulf-qt5_2.3.0-1.tar.gz
+ 1f997ebeb8956566153c0c483e399b36 1280 contrib/admin optional ulf-qt5_2.3.0-1_all.deb

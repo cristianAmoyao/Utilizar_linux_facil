@@ -1,0 +1,28 @@
+Format: 1.8
+Date: Mon, 14 May 2018 12:00:00 +0000
+Source: ulf-qt4
+Binary: ulf-qt4
+Architecture: source all
+Version: 2.3.0-1
+Distribution: unstable
+Urgency: low
+Maintainer: Usar linux Facil <cristian@linux-2017>
+Changed-By: Usar linux Facil <cristian@linux-2017>
+Description:
+ ulf-qt4    - qt4 package for Utilizar Linux/GNU Facil
+Changes:
+ ulf-qt4 (2.3.0-1) unstable; urgency=low
+ .
+   * New release version
+Checksums-Sha1:
+ 560cad215bf74df0f0dddd7b3fe309bd30450704 510 ulf-qt4_2.3.0-1.dsc
+ e5000e44722ab18e229dafb2083cb3cdaedf329b 852 ulf-qt4_2.3.0-1.tar.gz
+ b5a680c63ab2abf9bbe249d27848fec7555cdebf 1294 ulf-qt4_2.3.0-1_all.deb
+Checksums-Sha256:
+ c3de4a394ae1a1511d3f8f4d0f4aaeb568f4868bf88349582b1f060a63c27458 510 ulf-qt4_2.3.0-1.dsc
+ 931520c08fd9732964710c5ea07c320ff7256ffa2f7f050833baf9e23557a67b 852 ulf-qt4_2.3.0-1.tar.gz
+ 3f88f7b38d71e886ac608d71253dbf12df86a8626a670f3f01c6134e5b845b9a 1294 ulf-qt4_2.3.0-1_all.deb
+Files:
+ f67fac5b59019af71ea6ffb3445eb062 510 contrib/admin optional ulf-qt4_2.3.0-1.dsc
+ 5e54f28fac50087680287c1d73b40067 852 contrib/admin optional ulf-qt4_2.3.0-1.tar.gz
+ 77ed1badbc00d8b6e8ad3d7bd57816ef 1294 contrib/admin optional ulf-qt4_2.3.0-1_all.deb

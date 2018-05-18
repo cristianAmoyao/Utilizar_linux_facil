@@ -1,0 +1,28 @@
+Format: 1.8
+Date: Mon, 14 May 2018 12:00:00 +0000
+Source: ulf-gtk
+Binary: ulf-gtk
+Architecture: source all
+Version: 2.3.0-1
+Distribution: unstable
+Urgency: low
+Maintainer: Usar linux Facil <cristian@linux-2017>
+Changed-By: Usar linux Facil <cristian@linux-2017>
+Description:
+ ulf-gtk    - gtk package for Utilizar Linux/GNU Facil
+Changes:
+ ulf-gtk (2.3.0-1) unstable; urgency=low
+ .
+   * New release version
+Checksums-Sha1:
+ 81ec0512166e518b79cd7c17f2e2d1a6c03dd2c3 510 ulf-gtk_2.3.0-1.dsc
+ c681175847ddd145df7e14086eddb73e738beddf 852 ulf-gtk_2.3.0-1.tar.gz
+ 3252a1da5f45df106cfea70c9629db653141951c 1290 ulf-gtk_2.3.0-1_all.deb
+Checksums-Sha256:
+ 14939f0fc9a405eec4d401e4fca9072391d24fee2e8cfe017c179c39396254a3 510 ulf-gtk_2.3.0-1.dsc
+ d39792292614daad9c5d3503438cb1e38ee2dbd93402ab1cf4f39fbd58a53012 852 ulf-gtk_2.3.0-1.tar.gz
+ b9ebfb6c160128ebaa4692725842c76981e4270ecf16557b624a70e270838f14 1290 ulf-gtk_2.3.0-1_all.deb
+Files:
+ bb2148b1341ef901043e0f874370f9f1 510 contrib/admin optional ulf-gtk_2.3.0-1.dsc
+ 0c8ce274a910a53cb58d5f00399b603b 852 contrib/admin optional ulf-gtk_2.3.0-1.tar.gz
+ 17859b6e07f3da35122efd89a4727474 1290 contrib/admin optional ulf-gtk_2.3.0-1_all.deb
