@@ -1,0 +1,72 @@
+Format: 1.8
+Date: Wed, 06 Jun 2018 12:00:00 +0000
+Source: ulf
+Binary: ulf
+Architecture: source all
+Version: 3.0.0-3
+Distribution: unstable
+Urgency: low
+Maintainer: Usar linux Facil <cristian@linux-2017>
+Changed-By: Usar linux Facil <cristian@linux-2017>
+Description:
+ ulf        - Nueva version Mejorada de ULF
+Changes:
+ ulf (3.0.0-3) unstable; urgency=low
+ .
+   * *Se ha añadido un pequeño instructivo para crear scripts (bash).
+   * *Se ha creado un apartado (muy basico ) para iniciar scripts propios.
+   * *Se puede encriptar y encriptar archivos muy facil.
+   * SISTEMA
+   * *Reiniciar Audio
+   * *Reparar DNS
+   * *Reiniciar servicios de internet
+   * *Reparar problemas de fondo de pantalla xfce4
+   * *Actualizar GRUB
+   * *Administrador de archivos (ROOT/superusuario)
+   * *Limpieza de Chrome
+   * *Editar Menu (Menulibre)
+   * *¿Como instalar temas?
+   * *Ver log de inicio(durante el arranque del sistema)
+   * *programas que se inician junto al sistema
+   * *Saber que Sistemas Operativos tengo instalados
+   * *Informacion del CPU
+   * *Test de Ping
+   * *Se puede saber cuanto tiene de cache (paquetes ya utilizados)
+   * *Ver registros de X.org
+   * *Ver  Informacion del kernel
+   * SEGURIDAD
+   * *Encriptar y desencriptar archivos facilmente (GPG GNU)
+   * *Crear contraseñas seguras (base64 /dev/urandom)
+   * ADMINISTRAR PAQUETES
+   * *eliminar paquetes desactualizados (apt-get autoclean)
+   * *Actualizacion de todo el sistema (apt-get upgrade)
+   * *Actualizar repositorios (apt-get update)
+   * *Verificar repositorios (apt-get check)
+   * *Reconfigurar (dpkg --configure -a)
+   * *Registro de los paquetes
+   * *Limpieza de paquetes innecesarios(apt-get clean)
+   * *solucion de /usr/bin/dpkg returned an error code (1)
+   * MIS SCRIPTS
+   * *Tutorial basico de como crear un script
+   * *Testear scripts propios
+   * *Recomendaciones de sitios web con varios comandos
+   * ACTUALIZAR PROGRAMA
+   * *Mediante un archivo .gambas se podra actualizar
+   * el programa sin necesidad de reinstalar
+   * IMPORTAR DIRECTORIOS
+   * *Es un acceso directo para depositar los scripts que han creados(propios)
+Checksums-Sha1:
+ 1b04bebd2feb49b4675dfa29db00255331faa5c1 877 ulf_3.0.0-3.dsc
+ b43133697c262ce2b6aa4613d5b82e75134c76d6 2525 ulf_3.0.0-3.diff.gz
+ 15c63159edbfba72591d3d95291b153d78c53371 24540 ulf_3.0.0-3_all.deb
+ 63e3d160aa490b86705f22a197f66059d0ba12b8 9070 ulf_3.0.0-3_amd64.buildinfo
+Checksums-Sha256:
+ aeb87a275f87890c8e5130410c2a3b02b79177a3c7ba97c8835ab119fcf53db1 877 ulf_3.0.0-3.dsc
+ 11159f4074490a2495f3c685491fce107c541a55cd97bb02255297aeb4328644 2525 ulf_3.0.0-3.diff.gz
+ c502bb8734a80151a488eac51ef962d22542294fe3c4a416a6a9266b85b39dd0 24540 ulf_3.0.0-3_all.deb
+ 0833ba7c7255208812cfc78db6e918717d735494dfdb9b349f7f29a051203d50 9070 ulf_3.0.0-3_amd64.buildinfo
+Files:
+ 7833854b812ee67e36cbb587f9681314 877 contrib/admin optional ulf_3.0.0-3.dsc
+ 60ac390ed62f028ed5afd5b5066a11a3 2525 contrib/admin optional ulf_3.0.0-3.diff.gz
+ a89c6cc61234be5f79af50aa989e2cb2 24540 contrib/admin optional ulf_3.0.0-3_all.deb
+ ff5762c157e1f759fba5914e5c13e694 9070 contrib/admin optional ulf_3.0.0-3_amd64.buildinfo

@@ -1,0 +1,72 @@
+Format: 1.8
+Date: Wed, 06 Jun 2018 12:00:00 +0000
+Source: ulf-qt5
+Binary: ulf-qt5
+Architecture: source all
+Version: 3.0.0-3
+Distribution: unstable
+Urgency: low
+Maintainer: Usar linux Facil <cristian@linux-2017>
+Changed-By: Usar linux Facil <cristian@linux-2017>
+Description:
+ ulf-qt5    - qt5 package for Utilizar Linux/GNU Facil
+Changes:
+ ulf-qt5 (3.0.0-3) unstable; urgency=low
+ .
+   * *Se ha añadido un pequeño instructivo para crear scripts (bash).
+   * *Se ha creado un apartado (muy basico ) para iniciar scripts propios.
+   * *Se puede encriptar y encriptar archivos muy facil.
+   * SISTEMA
+   * *Reiniciar Audio
+   * *Reparar DNS
+   * *Reiniciar servicios de internet
+   * *Reparar problemas de fondo de pantalla xfce4
+   * *Actualizar GRUB
+   * *Administrador de archivos (ROOT/superusuario)
+   * *Limpieza de Chrome
+   * *Editar Menu (Menulibre)
+   * *¿Como instalar temas?
+   * *Ver log de inicio(durante el arranque del sistema)
+   * *programas que se inician junto al sistema
+   * *Saber que Sistemas Operativos tengo instalados
+   * *Informacion del CPU
+   * *Test de Ping
+   * *Se puede saber cuanto tiene de cache (paquetes ya utilizados)
+   * *Ver registros de X.org
+   * *Ver  Informacion del kernel
+   * SEGURIDAD
+   * *Encriptar y desencriptar archivos facilmente (GPG GNU)
+   * *Crear contraseñas seguras (base64 /dev/urandom)
+   * ADMINISTRAR PAQUETES
+   * *eliminar paquetes desactualizados (apt-get autoclean)
+   * *Actualizacion de todo el sistema (apt-get upgrade)
+   * *Actualizar repositorios (apt-get update)
+   * *Verificar repositorios (apt-get check)
+   * *Reconfigurar (dpkg --configure -a)
+   * *Registro de los paquetes
+   * *Limpieza de paquetes innecesarios(apt-get clean)
+   * *solucion de /usr/bin/dpkg returned an error code (1)
+   * MIS SCRIPTS
+   * *Tutorial basico de como crear un script
+   * *Testear scripts propios
+   * *Recomendaciones de sitios web con varios comandos
+   * ACTUALIZAR PROGRAMA
+   * *Mediante un archivo .gambas se podra actualizar
+   * el programa sin necesidad de reinstalar
+   * IMPORTAR DIRECTORIOS
+   * *Es un acceso directo para depositar los scripts que han creados(propios)
+Checksums-Sha1:
+ ae868ef7a66b8022f0c6d2a0a108caccea283ab5 513 ulf-qt5_3.0.0-3.dsc
+ 2e8a74ab5d0e4e929930794b3673063577456b3e 1689 ulf-qt5_3.0.0-3.tar.gz
+ b2151236c1b8ba7b5c6c8d3dcda0b299193ba63f 2134 ulf-qt5_3.0.0-3_all.deb
+ 248e9b512fd1b768de86c395deaa5d6a4c1ca3f1 5033 ulf-qt5_3.0.0-3_amd64.buildinfo
+Checksums-Sha256:
+ fe81a8b2fb2039f0aaee157c7a469d243ffa15dd2b6469587ec653a3dcad70e3 513 ulf-qt5_3.0.0-3.dsc
+ 58912a2a054d81a2fc1f0235fe9f61fb6a6135e6a69e384e4ecd570119867702 1689 ulf-qt5_3.0.0-3.tar.gz
+ b72ad1e5fff6df480f1e9b3cb4fbc2ceb71d1c72b32abd17ba841b984facde3d 2134 ulf-qt5_3.0.0-3_all.deb
+ 5c05ae06e80d286fe45f30dc0b0cb0f6c4d986ac839da02598f6b6e277046efb 5033 ulf-qt5_3.0.0-3_amd64.buildinfo
+Files:
+ bb44a711de2659fa91dc3ce814168e0e 513 contrib/admin optional ulf-qt5_3.0.0-3.dsc
+ b8756f9786ae51701c53a8f9f2b1c9a3 1689 contrib/admin optional ulf-qt5_3.0.0-3.tar.gz
+ 990fb5d90ae35edbc842f5fe09d50465 2134 contrib/admin optional ulf-qt5_3.0.0-3_all.deb
+ 9ea62e26961569920fc5b29454061800 5033 contrib/admin optional ulf-qt5_3.0.0-3_amd64.buildinfo

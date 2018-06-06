@@ -1,0 +1,72 @@
+Format: 1.8
+Date: Wed, 06 Jun 2018 12:00:00 +0000
+Source: ulf-gtk3
+Binary: ulf-gtk3
+Architecture: source all
+Version: 3.0.0-3
+Distribution: unstable
+Urgency: low
+Maintainer: Usar linux Facil <cristian@linux-2017>
+Changed-By: Usar linux Facil <cristian@linux-2017>
+Description:
+ ulf-gtk3   - gtk3 package for Utilizar Linux/GNU Facil
+Changes:
+ ulf-gtk3 (3.0.0-3) unstable; urgency=low
+ .
+   * *Se ha añadido un pequeño instructivo para crear scripts (bash).
+   * *Se ha creado un apartado (muy basico ) para iniciar scripts propios.
+   * *Se puede encriptar y encriptar archivos muy facil.
+   * SISTEMA
+   * *Reiniciar Audio
+   * *Reparar DNS
+   * *Reiniciar servicios de internet
+   * *Reparar problemas de fondo de pantalla xfce4
+   * *Actualizar GRUB
+   * *Administrador de archivos (ROOT/superusuario)
+   * *Limpieza de Chrome
+   * *Editar Menu (Menulibre)
+   * *¿Como instalar temas?
+   * *Ver log de inicio(durante el arranque del sistema)
+   * *programas que se inician junto al sistema
+   * *Saber que Sistemas Operativos tengo instalados
+   * *Informacion del CPU
+   * *Test de Ping
+   * *Se puede saber cuanto tiene de cache (paquetes ya utilizados)
+   * *Ver registros de X.org
+   * *Ver  Informacion del kernel
+   * SEGURIDAD
+   * *Encriptar y desencriptar archivos facilmente (GPG GNU)
+   * *Crear contraseñas seguras (base64 /dev/urandom)
+   * ADMINISTRAR PAQUETES
+   * *eliminar paquetes desactualizados (apt-get autoclean)
+   * *Actualizacion de todo el sistema (apt-get upgrade)
+   * *Actualizar repositorios (apt-get update)
+   * *Verificar repositorios (apt-get check)
+   * *Reconfigurar (dpkg --configure -a)
+   * *Registro de los paquetes
+   * *Limpieza de paquetes innecesarios(apt-get clean)
+   * *solucion de /usr/bin/dpkg returned an error code (1)
+   * MIS SCRIPTS
+   * *Tutorial basico de como crear un script
+   * *Testear scripts propios
+   * *Recomendaciones de sitios web con varios comandos
+   * ACTUALIZAR PROGRAMA
+   * *Mediante un archivo .gambas se podra actualizar
+   * el programa sin necesidad de reinstalar
+   * IMPORTAR DIRECTORIOS
+   * *Es un acceso directo para depositar los scripts que han creados(propios)
+Checksums-Sha1:
+ 42ff6b9ee19d4c69ceea07013444824fa5e7964c 519 ulf-gtk3_3.0.0-3.dsc
+ 2bd1baad58104d14cd7782d4a86d05a27c06324a 1691 ulf-gtk3_3.0.0-3.tar.gz
+ f8bad271896f0c5a86452ffe793180910890b1cd 2132 ulf-gtk3_3.0.0-3_all.deb
+ 3f8dec5c1557e2333b38b52dcad936c770f589e7 5041 ulf-gtk3_3.0.0-3_amd64.buildinfo
+Checksums-Sha256:
+ 1eebd585a06f5991b0ede1702e585287f59c554cfd5bfbeac62a942c91f4a4f6 519 ulf-gtk3_3.0.0-3.dsc
+ 6c8480e88b2de033c955a182fd8100e42ee6d72e2d43e782afd6c234ac4e9fc3 1691 ulf-gtk3_3.0.0-3.tar.gz
+ d7ddf2526e483e9f3d870d7c8c96a23b19d8a1a1640021a65f99d943208c709d 2132 ulf-gtk3_3.0.0-3_all.deb
+ 8379b4bafa5cef3c44210a600e48334ba722e81302b747549154ab45a26e048a 5041 ulf-gtk3_3.0.0-3_amd64.buildinfo
+Files:
+ f5d568679dccdf63c9e2368def8a33df 519 contrib/admin optional ulf-gtk3_3.0.0-3.dsc
+ b982d7fcfd10372a41aab540360b1770 1691 contrib/admin optional ulf-gtk3_3.0.0-3.tar.gz
+ 6b444f59e4dd2812a09c879bd3d89fc7 2132 contrib/admin optional ulf-gtk3_3.0.0-3_all.deb
+ 3dfbfc05877531e25cd649ad70f97467 5041 contrib/admin optional ulf-gtk3_3.0.0-3_amd64.buildinfo

@@ -1,0 +1,72 @@
+Format: 1.8
+Date: Wed, 06 Jun 2018 12:00:00 +0000
+Source: ulf-qt4
+Binary: ulf-qt4
+Architecture: source all
+Version: 3.0.0-3
+Distribution: unstable
+Urgency: low
+Maintainer: Usar linux Facil <cristian@linux-2017>
+Changed-By: Usar linux Facil <cristian@linux-2017>
+Description:
+ ulf-qt4    - qt4 package for Utilizar Linux/GNU Facil
+Changes:
+ ulf-qt4 (3.0.0-3) unstable; urgency=low
+ .
+   * *Se ha añadido un pequeño instructivo para crear scripts (bash).
+   * *Se ha creado un apartado (muy basico ) para iniciar scripts propios.
+   * *Se puede encriptar y encriptar archivos muy facil.
+   * SISTEMA
+   * *Reiniciar Audio
+   * *Reparar DNS
+   * *Reiniciar servicios de internet
+   * *Reparar problemas de fondo de pantalla xfce4
+   * *Actualizar GRUB
+   * *Administrador de archivos (ROOT/superusuario)
+   * *Limpieza de Chrome
+   * *Editar Menu (Menulibre)
+   * *¿Como instalar temas?
+   * *Ver log de inicio(durante el arranque del sistema)
+   * *programas que se inician junto al sistema
+   * *Saber que Sistemas Operativos tengo instalados
+   * *Informacion del CPU
+   * *Test de Ping
+   * *Se puede saber cuanto tiene de cache (paquetes ya utilizados)
+   * *Ver registros de X.org
+   * *Ver  Informacion del kernel
+   * SEGURIDAD
+   * *Encriptar y desencriptar archivos facilmente (GPG GNU)
+   * *Crear contraseñas seguras (base64 /dev/urandom)
+   * ADMINISTRAR PAQUETES
+   * *eliminar paquetes desactualizados (apt-get autoclean)
+   * *Actualizacion de todo el sistema (apt-get upgrade)
+   * *Actualizar repositorios (apt-get update)
+   * *Verificar repositorios (apt-get check)
+   * *Reconfigurar (dpkg --configure -a)
+   * *Registro de los paquetes
+   * *Limpieza de paquetes innecesarios(apt-get clean)
+   * *solucion de /usr/bin/dpkg returned an error code (1)
+   * MIS SCRIPTS
+   * *Tutorial basico de como crear un script
+   * *Testear scripts propios
+   * *Recomendaciones de sitios web con varios comandos
+   * ACTUALIZAR PROGRAMA
+   * *Mediante un archivo .gambas se podra actualizar
+   * el programa sin necesidad de reinstalar
+   * IMPORTAR DIRECTORIOS
+   * *Es un acceso directo para depositar los scripts que han creados(propios)
+Checksums-Sha1:
+ ff354862e7311c025b044210c6c614f9e59cc35e 513 ulf-qt4_3.0.0-3.dsc
+ 21857a0625a45d4c59a1adcfcc958bf4202b3b20 1688 ulf-qt4_3.0.0-3.tar.gz
+ 2c9366d8193583f9dddf232458958ba0e6c5ab58 2132 ulf-qt4_3.0.0-3_all.deb
+ 08758eae5933b3d6e05b79814b422579226b42ce 5033 ulf-qt4_3.0.0-3_amd64.buildinfo
+Checksums-Sha256:
+ 5ac7c57e8537bcec01b129471cf3435906ef721d55820af6d66f88969cb4cce2 513 ulf-qt4_3.0.0-3.dsc
+ 40fecc9532bac93f966031a01820fded88ba3b856acb8c8373a4cc7c4b346323 1688 ulf-qt4_3.0.0-3.tar.gz
+ d1f23d92000a90815f5be84ca942d3c6b398bab14962d2f1d529d987654d7bad 2132 ulf-qt4_3.0.0-3_all.deb
+ 69ffa82312bb5624676118ceda49d06838dac167fce5961e2a4d1603359cdcbb 5033 ulf-qt4_3.0.0-3_amd64.buildinfo
+Files:
+ 3cf82bb6ebca371eb25d4b08ffaa6cc8 513 contrib/admin optional ulf-qt4_3.0.0-3.dsc
+ 1c6b5ecb0823b18643986cec541e1c96 1688 contrib/admin optional ulf-qt4_3.0.0-3.tar.gz
+ 8f654fe8167c1bcfdf4ab5777f1b2bb3 2132 contrib/admin optional ulf-qt4_3.0.0-3_all.deb
+ 8053f1bcd041bcca3ddc3eec0dd21cb4 5033 contrib/admin optional ulf-qt4_3.0.0-3_amd64.buildinfo
